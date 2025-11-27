@@ -45,10 +45,14 @@ results/alignment_output.txt
 SeqAlign-Hybrid/
 ├── ssa_detect.py               # SSAHA region detection
 ├── smith_waterman_align.py     # Smith-Waterman local alignment
-├── helper_utils.py             # Utility functions and shared logic
-├── data/                       # Sample input genomic sequences
-├── results/                    # Output files for alignment results
+├── helper_utils.py             # Utility functions
+├── data/                       # Input sequences
+│   ├── reference.fasta
+│   └── query.fasta
+├── results/                    # Alignment output files
+│   └── alignment_output.txt
 └── README.md                   # Project documentation
+
 
 ## Dependencies
 
